@@ -4,7 +4,7 @@ title: How to deploy CAP project with SQLite DB and row data in *.csv files to S
 categories: [SAP BTP, CAP CDS]
 ---
 
-In case you need to deploy CAP project with SQLite DB and test data in *.csv files you need to modify 2 files.
+In case you need to deploy CAP project with SQLite DB and test data in `*.csv` files you need to modify 2 files.
 
 ## Modify package.json
 Add in `requires` block information, that you are using sqlite in-memory database.
@@ -28,7 +28,7 @@ After the `requires` block add the new block `feature` where set `in_memory_db` 
 ```
 
 ## Modify mta.yaml file
-Now go to the mta.yaml and add the command `- cp -r db/data gen/srv/srv/data`. This command will allow you to deploy row data in *.csv files from your `db/` folder.
+Now go to the `mta.yaml` and add the command `- cp -r db/data gen/srv/srv/data`. This command will allow you to deploy row data in *.csv files from your `db/` folder.
 ```yaml
     build-parameters:
       before-all:
