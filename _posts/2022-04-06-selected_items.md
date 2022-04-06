@@ -1,5 +1,7 @@
 ---
+layout: post
 title: How to get selected items or properties of this item from the table in SAP UI5?
+categories: [Open UI5]
 --- 
 
 In case you need to get selected items or property of this item from the table in SAP UI5, you need to add few lines of code in your controller file.

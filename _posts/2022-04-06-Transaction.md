@@ -1,5 +1,7 @@
 ---
+layout: post
 title: What the difference between tx.run(CRUD Operation) and simple CRUD Operation?
+categories: [CAP CDS]
 ---
 
 Transaction management in CAP deals with (ACID) database transactions, principle / context propagation on service-to-service calls and tenant isolation.

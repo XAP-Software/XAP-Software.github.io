@@ -1,5 +1,7 @@
 ---
+layout: post
 title: How to deploy CAP project with SQLite DB and row data in *.csv files to SAP BTP Cloud Platform 
+categories: [SAP BTP, CAP CDS]
 ---
 
 In case you need to deploy CAP project with SQLite DB and test data in *.csv files you need to modify 2 files.
