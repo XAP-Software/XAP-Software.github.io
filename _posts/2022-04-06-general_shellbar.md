@@ -8,9 +8,9 @@ In this article we show you how to add general shellbar for every view in your S
 
 ## manifest.json file
 
-In your manifest.json file you need to find rootView:
+In your `manifest.json` file you need to find rootView:
 
-``` JSON
+```json
      "rootView": {
             "viewName": "replenishment.view.MainView",
             "type": "XML",
@@ -19,13 +19,13 @@ In your manifest.json file you need to find rootView:
         }
 ```
 
-Then you need to open a .xml file of this view.
+Then you need to open a `.xml` file of this view.
 
 ## MainView.view.xml file
 
-Insert this code before the 'Shell' tag.
+Insert this code before the `Shell` tag.
 
-``` XML
+```xml
     <f:ShellBar
         id="sapFShellBarSample"
         title="Example App"

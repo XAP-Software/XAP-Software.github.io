@@ -8,21 +8,21 @@ In case you need to expand/collapse the hierarchy elements of treegrid table in 
 
 ## expandAll()
 
-Function expandAll() allows to expand all the collapsed nodes on every hierarchy level.
+Function `expandAll()` allows to expand all the collapsed nodes on every hierarchy level.
 
-``` HTML
+```html
 <ejs-treegrid ref="treegrid" :dataSource="data"></ejs-treegrid>
 ```
-``` JavaScript
+```js
 this.$refs.treegrid.expandAll()
 ```     
         
 You can also expand the specific nodes by passing the array of collapsed nodes as argument to this method.
 
-``` HTML
+```html
 <ejs-treegrid ref="treegrid" :dataSource="data"></ejs-treegrid>
 ```
-``` JavaScript
+```js
 var node = this.$refs.treegrid.getNode(args.node);
 console.log(node);
 this.$refs.treegrid.expandAll([node.id]);
@@ -30,22 +30,22 @@ this.$refs.treegrid.expandAll([node.id]);
 
 ## collapseAll()
 
-Function collapseAll() allows to collapse all the expanded nodes on every hierarchy level.
+Function `collapseAll()` allows to collapse all the expanded nodes on every hierarchy level.
 
-``` HTML
+```html
 <ejs-treegrid ref="treegrid" :dataSource="data"></ejs-treegrid>
 ```
-``` JavaScript
+```js
 this.$refs.treegrid.collapseAll()
 ```     
 
 You can also collapse the specific nodes by passing the array of expanded nodes as argument to this method.
 
-``` HTML
+```html
 <ejs-treegrid ref="treegrid" :dataSource="data" ></ejs-treegrid>
 ```
     
-``` JavaScript
+```js
 var node = this.$refs.treegrid.getNode(args.node);
 console.log(node);
 this.$refs.treegrid.collapseAll([node.id]);
@@ -53,25 +53,25 @@ this.$refs.treegrid.collapseAll([node.id]);
 
 ## expandAtLevel()
 
-Function expandAtLevel() allows to expand all the collapsed nodes on specific hierarchy level by passing the number of level as argument to this method.
+Function `expandAtLevel()` allows to expand all the collapsed nodes on specific hierarchy level by passing the number of level as argument to this method.
 
-``` HTML
+```html
 <ejs-treegrid ref="treegrid" :dataSource="data" ></ejs-treegrid>
 ```
     
-``` JavaScript
+```js
 this.$refs.treegrid.expandAtLevel(1);
 ```
 
 ## collapseAtLevel()
 
-Function collapseAtLevel() allows to collapse all the expanded nodes on specific hierarchy level by passing the number of level as argument to this method.
+Function `collapseAtLevel()` allows to collapse all the expanded nodes on specific hierarchy level by passing the number of level as argument to this method.
 
-``` HTML
+```html
 <ejs-treegrid ref="treegrid" :dataSource="data" ></ejs-treegrid>
 ```
     
-``` JavaScript
+```js
 this.$refs.treegrid.collapseAtLevel(1);
 ```
 

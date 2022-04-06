@@ -19,7 +19,7 @@ ACID transactions ensure the highest possible data reliability and integrity. Th
 ## Root Transactions
 
 Whenever an instance of cds.Service processes inbound messages or requests, for example in response to a call like that:
-``` JavaScript
+```js
 await db.read('Books')
 ``` 
 … the core framework automatically cares for…
@@ -36,7 +36,7 @@ You can use `JavaScript srv.tx()` as documented below to start and commit transa
 ## srv.tx (context?, fn?) → tx<srv>
 
 Use `JavaScript cds.tx()` to start new app-controlled transactions manually, most commonly for database services as in this example:
-```JavaScript
+```js
 let db = await cds.connect.to('db')
 let tx = db.tx()
 try {
