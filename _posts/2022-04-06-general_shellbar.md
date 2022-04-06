@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to make general shellbar for every view?
-categories: [Open UI5]
+categories: [SAP UI5 & Open UI5]
 ---
 
 In this article we show you how to add general shellbar for every view in your SAP UI5 app.

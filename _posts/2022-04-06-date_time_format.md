@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to get date and time in datetime format string JS from DateTimePicker SAP UI5? 
-categories: [Open UI5]
+categories: [SAP UI5 & Open UI5]
 ---
 
 In case you need to get date and time in datetime format string JS from DateTimePicker of SAP UI5.
