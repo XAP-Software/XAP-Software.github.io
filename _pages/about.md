@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-XAP Group is a company that develops applications for enterprise customers. 
+XAP Software is a company that develops applications for enterprise customers. 
 
 # Our specialties
 
@@ -19,23 +19,24 @@ XAP Group is a company that develops applications for enterprise customers.
 
 ## Coaching
 
-We are helping your teams to realize vision of Enterprise Architects by showing how you can implement CI/CD, create microservices, utilize cloud platforms, decouple extensions from enterpise systems to keep the core clean.
+We are helping your teams to realize vision of Enterprise Architects by showing how to implement CI/CD, create microservices, utilize cloud platforms, decouple extensions from enterpise systems to keep the core clean.
 
 ## Custom development for implementation projects
 
 We work together with consulting companies, which implement enterprise systems. We develop functionalities which are not covered by standard system.
 
-## Side-by-side enhancements for enterprise systems
+## Side-by-Side enhancements for enterprise systems
 
 We utilize Cloud Application Programming model together with SAP BTP platform to build high performance robust extensions for your SAP systems. The end result could look indistinguishable from standard SAP functions, but will keep the core clean.
 
-We also have experience of performing side-by-side enhancements for non-SAP systems.
+We also have experience of developing Side-by-Side enhancements for non-SAP systems.
 
 ## Custom web applications
 
 We create new Fiori applications on Node.JS and Java platforms, SAP HANA Cloud database and integrate them with your systems using web-services.
-We also create Vue.js applications, integrate them with OData services, SQL Lite, PostgreSQL databases.
 
-# New applications for any platform
+We create new Vue.js applications, integrate them with OData services, SQL Lite, PostgreSQL databases.
+
+## New applications for any platform
 
 Our developers are universal. React, Angular, Vue, Django, Next, — you name it. As long as it is one of the following languages, — we can do it. Languages include JavaScript (Node.JS), TypeScript, Java, Python, Swift and C++.
