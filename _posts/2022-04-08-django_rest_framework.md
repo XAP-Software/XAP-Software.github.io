@@ -120,7 +120,7 @@ class MyModelSerializer(serializers.ModelSerializer):
 
 - `RetrieveUpdateAPIView` - read record on `GET` request and change record on `PATCH` request
 
-- `RetrieveDestroyAPIView` - read record on `GE`T request and delete record on `DELETE` request
+- `RetrieveDestroyAPIView` - read record on `GET` request and delete record on `DELETE` request
 
 - `RetrieveUpdateDestroyAPIView` - read, change and delete record on `GET`, `PATCH` and `DELETE` request
 
