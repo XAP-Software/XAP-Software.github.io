@@ -72,7 +72,8 @@ from . import views
 urlpatterns = [
     path('get/', views.MyAPIView.as_view()),
 ]
-
+```
+```python
 #In myproject/urls.py
 
 from django.contrib import admin
@@ -122,7 +123,8 @@ class MyListAPIView(generics.ListAPIView):
     queryset = user_model.objects.all()
     serializer_class = MyModelSerializer
 
-
+```
+```python
 #In myapp/urls.py
 
 from django.urls import path
