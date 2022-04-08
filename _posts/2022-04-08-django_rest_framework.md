@@ -20,7 +20,7 @@ In case you need to use django to create only a backend server to use other fron
 
 ### serializers.Serializer
 
-Abstruct class is to provide a way of serializing and deserializing the json data to django models.
+Abstruct class is to provide a way of serializing and deserializing the `json` data to django models.
 
 ```python
 #In myapp/serializers.py
@@ -66,7 +66,7 @@ class MyAPIView(views.APIView):
 
 ```
 
-In the end we need to create routes for our APIView
+In the end we need to create routes for our `APIView`
 ```python
 #In myapp/urls.py
 from django.urls import path
@@ -89,7 +89,7 @@ urlpatterns = [
 
 ### serializers.ModelSerializer
 
-In case you need to serializing and deserializing simple model advise to use `ModelSerializer`. It`s class is replicating a lot of information that's also contained in the `user_model` model.
+In case you need to serializing and deserializing simple model rather to use `ModelSerializer` class. It's replicating a lot of information that's also contained in the `user_model` model.
 ```python
 #In myapp/serializers.py
 ...
