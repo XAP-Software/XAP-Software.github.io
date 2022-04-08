@@ -104,13 +104,21 @@ class MyModelSerializer(serializers.ModelSerializer):
 rest_framework.generics provides a set of already mixed-in generic views that we can use to trim down our views.py module even more. 
 
 CreateAPIView - creating data on POST request
+
 ListAPIView - read data on GET request
+
 RetrieveAPIView - read record on GET request
+
 DestroyAPIView - delete data(record) on DELETE request
+
 UpdateAPIView - change record on POST or PATCH request
+
 ListCreateAPIView - read on GET request and create list of data on POST request
+
 RetrieveUpdateAPIView - read record on GET request and change record on PATCH request
+
 RetrieveDestroyAPIView - read record on GET request and delete record on DELETE request
+
 RetrieveUpdateDestroyAPIView - read, change and delete record on GET, PATCH and DELETE request
 
 ```python
