@@ -2,6 +2,8 @@
 layout: post
 title: How to expand/collapse elements of treegrid table from Syncfusion library in Vue.js? 
 categories: [Vue.js, Syncfusion]
+author_github: negativename
+author: Vladislav Kobenko
 ---
 
 In case you need to expand/collapse the hierarchy elements of treegrid table in Vue.js using built-in methods from Syncfusion. In this article we show you how to expand/collapse all elements or elements on specific hierarchy level.
@@ -77,4 +79,3 @@ this.$refs.treegrid.collapseAtLevel(1);
 
 
 
-**Author**: [negativename](https://github.com/negativename)

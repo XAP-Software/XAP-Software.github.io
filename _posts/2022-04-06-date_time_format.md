@@ -2,6 +2,8 @@
 layout: post
 title: How to get date and time in datetime format string JS from DateTimePicker SAP UI5? 
 categories: [SAP UI5 & Open UI5]
+author_github: negativename
+author: Vladislav Kobenko
 ---
 
 In case you need to get date and time in datetime format string JS from DateTimePicker of SAP UI5.
@@ -25,5 +27,3 @@ Now you can use this string to send Filter to your OData service. For example:
 ```js
     oFilter.push(new Filter("DateTime", FilterOperator.GE, new Date(oDateTimeFormat.parse(dateValue)).toISOString()));
 ```
-
-**Author**: [negativename](https://github.com/negativename)
