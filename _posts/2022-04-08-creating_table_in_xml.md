@@ -9,7 +9,7 @@ author: Vladislav Kobenko
 In case you need to create table in `*.view.xml` file in SAP UI5, you need to do few steps below.
 
 ## In *.view.xml
-First of all we create table using `<Table>` tag in `*.view.xml` file. You can also add additional parameters, like `width, mode and etc.`.
+First of all we create table using `<Table>` tag in `*.view.xml` file. You can also add additional parameters, like `width`, `mode` and etc..
 
 ```xml
     <Table 
