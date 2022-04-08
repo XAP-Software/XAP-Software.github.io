@@ -77,6 +77,4 @@ this.$refs.treegrid.collapseAtLevel(1);
 
 
 
-## You might also be interested in
-
-- [some link](/link)
+**Author**: [negativename](/https://github.com/negativename)

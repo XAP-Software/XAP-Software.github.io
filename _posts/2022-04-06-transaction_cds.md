@@ -53,9 +53,4 @@ Arguments:
  - context – an optional context object
  - fn – an optional function to run
 
-## You might also be interested in
-
-- [Transaction Management - capair](https://cap.cloud.sap/docs/node.js/transactions#automatic-transactions)
-- [ACID - wikipedia](https://en.wikipedia.org/wiki/ACID)
-- [What is ACID Transactions - databricks](https://databricks.com/glossary/acid-transactions#:~:text=ACID%20is%20an%20acronym%20that,operations%20are%20called%20transactional%20systems.)
-- [Significance of ACID vs BASE vs CAP Philosophy in Data Science - analytics vidhya](https://medium.com/analytics-vidhya/significance-of-acid-vs-base-vs-cap-philosophy-in-data-science-2cd1f78200ce)
+**Author**: [nevermore17](/https://github.com/nevermore17)
