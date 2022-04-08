@@ -20,7 +20,7 @@ In case you need to use django to create only a backend server to use other fron
 
 ### serializers.Serializer
 
-Abstruct class is to provide a way of serializing and deserializing the custom api to django models and
+Abstruct class is to provide a way of serializing and deserializing the json data to django models.
 
 ```python
 #In myapp/serializers.py
@@ -48,6 +48,9 @@ class MySerializer(serializers.Serializer):
 ```
 
 ### views.APIView
+
+`APIView` based class designed to project data into the API.
+
 ```python
 #In myapp/views.py
 from rest_framework import views
