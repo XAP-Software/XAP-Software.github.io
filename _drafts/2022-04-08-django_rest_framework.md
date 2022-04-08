@@ -10,13 +10,13 @@ In case you need to use django to create only a backend server to use other fron
 
 ## What is django-rest-framework?
 
-Django-rest-framework is a powerful and flexible toolkit for building Web APIs. Django provides the opportunity to create custom api but django-rest-framework has a set of tools to create flexible api in a short period of time with access control, filters and parameters.
+`django-rest-framework` is a powerful and flexible toolkit for building Web APIs. Django provides the opportunity to create custom api but `django-rest-framework` has a set of tools to create flexible api in a short period of time with access control, filters and parameters.
 
 ## rest_framework.serializers and rest_framework.views
 
-rest_framework.serializers includes some Abstruc class (Serializer, ModelSerializer) for serializing and deserializing the user_models instances into representations such as json.
+`rest_framework.serializers` includes some Abstruc class (`Serializer`, `ModelSerializer`) for serializing and deserializing the `user_models` instances into representations such as `json`.
 
-rest_framewort.views includes APIView for create custom rest methods for client.
+`rest_framewort.views` includes `APIView` for create custom rest methods for client.
 
 ### serializers.Serializer
 
@@ -86,7 +86,7 @@ urlpatterns = [
 
 ### serializers.ModelSerializer
 
-In case you need to serializing and deserializing simple model advise to use ModelSerializer. ModelSerializer class is replicating a lot of information that's also contained in the user_model model.
+In case you need to serializing and deserializing simple model advise to use `ModelSerializer`. It`s class is replicating a lot of information that's also contained in the `user_model` model.
 ```python
 #In myapp/serializers.py
 ...
@@ -101,25 +101,25 @@ class MyModelSerializer(serializers.ModelSerializer):
 
 ### generics.[SomeAPIView]
 
-rest_framework.generics provides a set of already mixed-in generic views that we can use to trim down our views.py module even more. 
+`rest_framework.generics` provides a set of already mixed-in generic views that we can use to trim down our views.py module even more. 
 
-CreateAPIView - creating data on POST request
+- `CreateAPIView` - creating data on `POST` request
 
-ListAPIView - read data on GET request
+- `ListAPIView` - read data on `GET` request
 
-RetrieveAPIView - read record on GET request
+- `RetrieveAPIView` - read record on `GET` request
 
-DestroyAPIView - delete data(record) on DELETE request
+- `DestroyAPIView` - delete data(record) on `DELETE` request
 
-UpdateAPIView - change record on POST or PATCH request
+- `UpdateAPIView` - change record on `POST` or `PATCH` request
 
-ListCreateAPIView - read on GET request and create list of data on POST request
+- `ListCreateAPIView` - read on `GET` request and create list of data on `POST` request
 
-RetrieveUpdateAPIView - read record on GET request and change record on PATCH request
+- `RetrieveUpdateAPIView` - read record on `GET` request and change record on `PATCH` request
 
-RetrieveDestroyAPIView - read record on GET request and delete record on DELETE request
+- `RetrieveDestroyAPIView` - read record on `GE`T request and delete record on `DELETE` request
 
-RetrieveUpdateDestroyAPIView - read, change and delete record on GET, PATCH and DELETE request
+- `RetrieveUpdateDestroyAPIView` - read, change and delete record on `GET`, `PATCH` and `DELETE` request
 
 ```python
 #In myapp/views.py
