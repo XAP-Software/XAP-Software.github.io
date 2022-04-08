@@ -28,4 +28,4 @@ If you need to get value of specific properties for your selected items, you nee
 
 Now you have an object with different array of params for every selected row, that you choose.
 
-**Author**: [negativename](/https://github.com/negativename)
+**Author**: [negativename](https://github.com/negativename)

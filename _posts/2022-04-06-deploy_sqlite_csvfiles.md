@@ -40,4 +40,4 @@ Now go to the `mta.yaml` and add the command `- cp -r db/data gen/srv/srv/data`.
 ```
 Now you can create mta archive and deploy it on SAP BTP.
 
-**Author**: [negativename](/https://github.com/negativename)
+**Author**: [negativename](https://github.com/negativename)

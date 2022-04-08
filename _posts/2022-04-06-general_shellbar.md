@@ -44,4 +44,4 @@ Insert this code before the `Shell` tag.
 There are some parameters, like title or navigation button and etc., which you will see on every view in your app.
 
 
-**Author**: [negativename](/https://github.com/negativename)
+**Author**: [negativename](https://github.com/negativename)

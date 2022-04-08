@@ -26,4 +26,4 @@ Now you can use this string to send Filter to your OData service. For example:
     oFilter.push(new Filter("DateTime", FilterOperator.GE, new Date(oDateTimeFormat.parse(dateValue)).toISOString()));
 ```
 
-**Author**: [negativename](/https://github.com/negativename)
+**Author**: [negativename](https://github.com/negativename)

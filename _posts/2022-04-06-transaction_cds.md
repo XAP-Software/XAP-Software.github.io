@@ -53,4 +53,4 @@ Arguments:
  - context – an optional context object
  - fn – an optional function to run
 
-**Author**: [nevermore17](/https://github.com/nevermore17)
+**Author**: [nevermore17](https://github.com/nevermore17)
