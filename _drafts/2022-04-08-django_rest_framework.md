@@ -14,7 +14,7 @@ In case you need to use django to create only a backend server to use other fron
 
 ## rest_framework.serializers and rest_framework.views
 
-`rest_framework.serializers` includes some Abstruc class (`Serializer`, `ModelSerializer`) for serializing and deserializing the `user_models` instances into representations such as `json`.
+`rest_framework.serializers` includes some Abstruct class (`Serializer`, `ModelSerializer`) for serializing and deserializing the `user_models` instances into representations such as `json`.
 
 `rest_framewort.views` includes `APIView` for create custom rest methods for client.
 
