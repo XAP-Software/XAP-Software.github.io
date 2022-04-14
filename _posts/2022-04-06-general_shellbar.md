@@ -10,7 +10,7 @@ In this article we show you how to add general shellbar for every view in your S
 
 ## manifest.json file
 
-In your `manifest.json` file you need to find rootView:
+In your `manifest.json` file you need to find `rootView`:
 
 ```json
      "rootView": {

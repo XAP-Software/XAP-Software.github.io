@@ -6,7 +6,7 @@ author_github: negativename
 author: Vladislav Kobenko
 ---
 
-In case you need to get date and time in datetime format string JS from DateTimePicker of SAP UI5.
+In case you need to get date and time in datetime format string JS from `sap.m.DateTimePicker` of SAP UI5.
 
 ## In SAP UI5 Controller.js
 First of all you need to add Date time Formatter variable in your controller file.

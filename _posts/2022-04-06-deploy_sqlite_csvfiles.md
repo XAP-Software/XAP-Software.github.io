@@ -30,7 +30,7 @@ After the `requires` block add the new block `feature` where set `in_memory_db` 
 ```
 
 ## Modify mta.yaml file
-Now go to the `mta.yaml` and add the command `- cp -r db/data gen/srv/srv/data`. This command will allow you to deploy row data in *.csv files from your `db/` folder.
+Now go to the `mta.yaml` and add the command `- cp -r db/data gen/srv/srv/data`. This command will allow you to deploy row data in `*.csv` files from your `db/` folder.
 ```yaml
     build-parameters:
       before-all:
