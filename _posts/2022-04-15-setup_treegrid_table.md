@@ -132,7 +132,7 @@ Creating grid for table. There are 4 types of grid:
 
 ## enableCollapseAll
 
-Expand or collapse all rows
+Expand or collapse all rows on init data
 
 ## loadChildOnDemand
 
