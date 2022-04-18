@@ -1,6 +1,6 @@
 # XAP Blog
 
-This repository hosts the official blog for XAP Software company.
+This repository hosts [the official blog for XAP Software company](https://blog.xap.group).
 
 XAP Software develops applications for enterprise customers. 
 
