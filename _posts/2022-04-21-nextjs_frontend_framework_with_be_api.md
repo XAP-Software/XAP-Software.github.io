@@ -6,13 +6,13 @@ author_github: nevermore17
 author: Verbin Kirill
 ---
 
-Let's say we have some BackEnd server (in my case, Django + Django Rest Framework) and want to generate `html`/`css` on NextJS
+Let's say we have some BackEnd server (in my case, Django + Django Rest Framework) and we want to generate `html`/`css` on NextJS
 
 ## 1. Create NextJS app
  ``` 
     npx create-next-app myapp
  ```
-NextJS application using a folder structure such as:
+NextJS application uses a folder structure, such as:
 ```
 myapp
 |-- pages
@@ -32,16 +32,16 @@ myapp
 |--package.json
 
 ```
-On this step I recommend add to myapp folder files `.env.development` and `.env.production`. Depending on the start mode(dev or prod) NextJs add values from `.end.<start_mode>` files to `process.env`. This will make development and deployment easier.
+On this step I recommend to add to myapp folder two files named `.env.development` and `.env.production`. Depending on the start mode (dev or prod), NextJs adds values from `.end.<start_mode>` files to `process.en`v. This will make development and deployment easier.
 ``` env
-# .env.development
+# .env.development / .env.production
 
 NEXT_PUBLIC_BACKENDSERVER=http://127.0.0.1
 NEXT_PUBLIC_BACKENDPORT=8000
 ```
 ## 2. Create page articles
 
-Paths for the application are made using folder management in pages folder:
+The paths for the application are made by using folder management in pages folder:
 - pages/index.js - `/`
 - page/some_page - `/some_page`
 - page/some_page/some_page2.js - `/some_page/some_page2`
@@ -60,14 +60,14 @@ export default function Index() {
     )
 }
 ```
-And run app. Now we have "Hellow world" on rout `/articles`. But we need get articles from BackEnd server
+And run the app. Now we have "Hello World" on route `/articles` but we need to get articles from BackEnd server
 
-In myapp BackEnd server have 2 routes:
+In myapp BackEnd server we have two routes:
 - `http://127.0.0.1:8000/api/article/`
 - `http://127.0.0.1:8000/api/article/<int:pk>`
 
-Page `/article/` only lists links to article pages. 
-Function `getServerSideProps` without params request articles from BackEnd server and return like page_props
+The page `/article/` only lists links to the article pages. 
+The function `getServerSideProps` without params request articles from BackEnd server and return like page_props
 
 ```js
 // pages/articles.js
@@ -94,7 +94,7 @@ export async function getServerSideProps(){
 ```
 ## 3. Create articles/\<id\> page
 
-Create folder areticles and add to this folder [id].js
+Create a folder articles and add to this folder [id].js
 
 We have `/articles/<id>` way:
 
@@ -127,7 +127,7 @@ export async function getServerSideProps({params}){
 }
 ```
 
-By passing a `{params}` to the `getServerSideProps`, we say what request should be made to get data about the article
+By passing `{params}` to `getServerSideProps`, we mean that a request should be made to recuive data from the article
 
 
 
