@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to create web site configuration model?
+title: How to add multiple images in your Django admin panel?
 categories: [Python, Django]
 author_github: negativename
 author: Kobenko Vladislav
@@ -23,7 +23,7 @@ class ProjectGallery(models.Model):
     
 ```
 
-This class has two fields. One of them is a foreign key to the parent class and other field needs for storing images.
+This class has two fields. One of them is a foreign key to the parent class and the other field is needed for storing images.
 
 ## Registering changes in admin panel
 

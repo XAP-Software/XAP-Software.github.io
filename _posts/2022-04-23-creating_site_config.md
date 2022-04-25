@@ -6,11 +6,11 @@ author_github: negativename
 author: Kobenko Vladislav
 ---
 
-In case you need to create web site configuration model, which means, that you can only create one instance of this class.
+This article describes how to create a class with a single instance. For example, In case you want to create web site configuration model, that would hold application-wide customization like URL or logo.
 
 ## How to create SingletoneModel?
 
-First of all you need to download `django-solo` package:
+We will use `django-solo` package. First download it:
 
 ```
     pip3 install django-solo
@@ -33,7 +33,7 @@ Now you need to include this package into your `settings.py` file:
 
 ## How to use SingletoneModel?
 
-In the start you need to include `django-solo` package into your model file:
+First you need to include `django-solo` package into your model file:
 
 ```python
     from solo.models import SingletonModel
@@ -50,13 +50,13 @@ Now we create model class `WebSiteConfig` and add some fields for your site conf
 
 ## How to add SingletoneModel into your admin panel?
 
-First of all you need to include `django-solo` package into your admin file:
+Include `django-solo` package into your admin file:
 
 ```python
     from solo.admin import SingletonModelAdmin
 ```
 
-Then create class for administration your site config and register this class:
+Then create a class for administration your site config and register this class:
 
 ```python
     from .models import WebSiteConfig
