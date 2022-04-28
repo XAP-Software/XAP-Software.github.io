@@ -127,7 +127,7 @@ export async function getServerSideProps({params}){
 }
 ```
 
-By passing `{params}` to `getServerSideProps`, we mean that a request should be made to recuive data from the article
+By passing `{params}` to `getServerSideProps`, we mean that a request should be made to receive data from the article
 
 
 
