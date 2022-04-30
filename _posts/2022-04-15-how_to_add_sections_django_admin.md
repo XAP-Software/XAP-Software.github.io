@@ -3,7 +3,7 @@ layout: post
 title: How to add/change sections, elements and properties for Django admin?
 categories: [Python, Django]
 author_github: negativename
-author: Kobenko Vladislav
+author: Vladislav Kobenko
 ---
 
 In case you need to use create or change sections, elements and their propeties in Django admin.
