@@ -9,8 +9,8 @@ author: Vasiliy Kharitonov
 You received an error upon command `bundle install` similar to the one below:
 
 ``` bash
-/opt/homebrew/opt/ruby/bin/bundle:25:in `load': cannot load such file -- /opt/homebrew/lib/ruby/gems/3.1.0/gems/bundler-2.3.11/exe/bundle (LoadError)
-	from /opt/homebrew/opt/ruby/bin/bundle:25:in `<main>'
+/.../ruby/bin/bundle:25:in `load': cannot load such file -- /.../ruby/gems/3.1.0/gems/bundler-2.3.11/exe/bundle (LoadError)
+	from /.../ruby/bin/bundle:25:in `<main>'
 ```
 
 This post might explain you how to fix it.
@@ -22,7 +22,8 @@ your gems to be installed by a super user. First, it causes problems, and
 second, it is not safe. I am trying to use most of my programs without sudo and
 it usually works out.
 
-There is a number of ways to install Ruby without sudo, e.g. you can use Homebrew:
+There is a number of ways to install Ruby without sudo, e.g. you can use
+Homebrew on macOS:
 
 ``` console
 $ brew install ruby
