@@ -6,7 +6,7 @@ author_github: Kostya2702
 author: Konstantin Loshkarev
 ---
 
-If you need to cancel the request using Axios in Vue.js. For example, when requests take a long time and you need to make another request, then this article is for you.
+You need to cancel a request using Axios in Vue.js. For example, the request takes a long time and you need to make another request. If it sounds familiar, this article is for you.
 
 ## Implementation of the cancellation of the previous request
 
