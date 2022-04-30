@@ -3,7 +3,7 @@ layout: post
 title: How to add multiple images in your Django admin panel?
 categories: [Python, Django]
 author_github: negativename
-author: Kobenko Vladislav
+author: Vladislav Kobenko
 ---
 
 In case you need to add multiple images in your django admin panel, you can use this article to solve this problem.

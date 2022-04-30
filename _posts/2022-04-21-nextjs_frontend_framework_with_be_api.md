@@ -3,7 +3,7 @@ layout: post
 title: How to setup NextJS FrontEnd Framework with some API? 
 categories: [NextJS]
 author_github: nevermore17
-author: Verbin Kirill
+author: Kirill Verbin
 ---
 
 Let's say we have some BackEnd server (in my case, Django + Django Rest Framework) and we want to generate `html`/`css` on NextJS

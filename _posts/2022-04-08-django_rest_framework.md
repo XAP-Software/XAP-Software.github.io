@@ -3,7 +3,7 @@ layout: post
 title: How to create a django backend server using django-rest-framework?
 categories: [Python, Django]
 author_github: nevermore17
-author: Verbin Kirill
+author: Kirill Verbin
 ---
 
 In case you need to use django to create only a backend server to use other front-end frameworks (next, nuxt) suggest django-rest-framework to create a rest-api.

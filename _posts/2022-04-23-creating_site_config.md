@@ -3,7 +3,7 @@ layout: post
 title: How to create web site configuration model?
 categories: [Python, Django]
 author_github: negativename
-author: Kobenko Vladislav
+author: Vladislav Kobenko
 ---
 
 This article describes how to create a class with a single instance. For example, In case you want to create web site configuration model, that would hold application-wide customization like URL or logo.
