@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Error - Cannot load such file - Ruby Gem bundler
-categories: [ruby, gem]
+categories: [Ruby, Gem]
 author_github: kh4rit
 author: Vasiliy Kharitonov
 ---
