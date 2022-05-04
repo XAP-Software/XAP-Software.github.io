@@ -51,7 +51,7 @@ In `application/models.py` add ordering field. Any valid Python variable name wi
 
 ```
 
-Use one of these models fields for ordering field:
+Use one of these model fields for the ordering field:
 
 - BigIntegerField
 - IntegerField
