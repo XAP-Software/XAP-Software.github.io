@@ -32,7 +32,7 @@ Now you need to include this package into your `settings.py` file:
 ```
 ## Creating order field
 
-In `application/models.py` add ordering field. Any valid Python variable name will work. This value be specified as the primary field used for sorting.
+In `application/models.py` add ordering field. Any valid Python variable name will work. This field will be specified as the primary one used for sorting.
 
 ```python
 
