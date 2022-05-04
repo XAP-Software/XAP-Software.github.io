@@ -6,7 +6,7 @@ author_github: nevermore17
 author: Verbin Kirill
 ---
 
-In case you need to have capability of elements position changing in django admin, you can use this article to solve this problem.
+In case you need to change position of elements within django admin, you can use this article to understand how.
 
 ## How to add django-admin-sortable2 package?
 
