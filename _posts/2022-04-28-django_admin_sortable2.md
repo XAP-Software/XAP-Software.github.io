@@ -61,7 +61,7 @@ Use one of these model fields for the ordering field:
 
 ## In application/admin.py
 
-In `application/admin.py` create `MyModelAdmin` class as SortableAdminMixin and admin.ModelAdmin child
+In `application/admin.py` create `MyModelAdmin` class as `SortableAdminMixin` and `admin.ModelAdmin` child
 
 
 ```python
