@@ -69,6 +69,6 @@ Now we should do is to define our data model and services.
 Use `cds-dpm` to deploy database artifacts to the PostgreSQL database.
 
 ```
-npx cds-dpm deploy
+$ npx cds-dpm deploy
 ```
 
