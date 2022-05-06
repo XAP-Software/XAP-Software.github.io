@@ -62,7 +62,7 @@ Data for connecting to the database is written in `default-env.json`
 
 ```
 
-Now we should do is to define our data model and services.
+Now we should define our data model and services.
 
 ## cds-dpm 
 
