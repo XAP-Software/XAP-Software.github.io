@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to set up your CAP project with PostgresQL database?
+title: How to set up your CAP project with PostgreSQL database?
 categories: [CAP POSTGRESQL]
 author_github: nevermore17
 author: Kirill Verbin
