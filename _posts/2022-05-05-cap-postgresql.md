@@ -13,7 +13,7 @@ In case you need to create CAP project with Postgresql database, then this artic
 In the normal case, CAP project cannot work with PostgreQL. To connect to the database you need to install `cds-pg` and `cds-dbm`
 
 ```
-  npm install cds-pg cds-dbm
+$ npm install cds-pg cds-dbm
 ```
 
 Database connect in `package.json`
