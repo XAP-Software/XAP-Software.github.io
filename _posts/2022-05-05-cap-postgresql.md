@@ -6,7 +6,7 @@ author_github: nevermore17
 author: Kirill Verbin
 ---
 
-In case you need to create CAP project with Postgresql database, then this article will help you understand the initial setup.
+In case you need to create CAP project with PostgreSQL database, this article will help you understand the initial setup.
 
 ## cds-pg
 
