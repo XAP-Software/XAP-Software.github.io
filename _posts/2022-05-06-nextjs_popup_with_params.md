@@ -10,7 +10,7 @@ In case you have generated elements with different parameters and you want to cr
 
 ## Creating pop-up
 
-Let's create simple pop-up in `Next.js`. Create `popup.js` file and paste there following code:
+Let's create a simple pop-up in `Next.js`. Create `popup.js` file and paste there the following code:
 
 ```jsx
 export default function Popup(props) {
@@ -27,29 +27,29 @@ export default function Popup(props) {
 }
 ```
 
-Now we have pop-up component, with data and close button. 
+Now we have the pop-up component with data and close button. 
 
 ## Adding pop-up into application
 
-Open your main file, for example `index.js`. Import pop-up component to this file.
+Open your main file, for example `index.js`. Import the pop-up component to this file.
 
 ```js
 import Popup from '../components/popup'
 ```
 
-Create statement for opening or closing pop-up. Let's use `useState` hook for changing state. Set initial value as `false` to keep pop-up closed as default:
+Create a statement for opening and closing pop-up. We will use `useState` hook for changing the state. Set initial value as `false` to keep the pop-up closed as default:
 
 ```js
 const [isOpen, setIsOpen] = useState(false);
 ```
 
-Also create statement for different data. You can set initial value as `0`, because we will change it after click below:
+Also create a statement for changing the data. You can set initial value to `0`, as we will change it upon click later:
 
 ```js
 const [data, setData] = useState(0);
 ```
 
-Now create handler for changing pop-up and data statement.
+Now create a handler to toggle pop-up and update the data.
 
 ```js
 const togglePopup = (key) => {
@@ -58,7 +58,7 @@ const togglePopup = (key) => {
   }
 ```
 
-In the end we need to call this handler on click. For example, if we have array `data` with different objects, which are generated dynamically, you will see pop-up with unique data for every element.
+In the end we need to call this handler on click. For example, we have an array `data` with different dynamically generated objects and want to see a pop-up with unique data for each element.
 
 ```jsx
 export default function Test({data}) {
@@ -94,4 +94,4 @@ return (
     </>
 ```
 
-It would be nice if we could keep our code a bit more concise.
+It would be nice if we could make our code a bit more concise.
