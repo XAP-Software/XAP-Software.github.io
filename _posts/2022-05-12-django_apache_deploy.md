@@ -46,7 +46,7 @@ Django requires to collect static files.
 $ python3 manage.py collectstatic 
 ```
 
-You need to necessary to register in the `settings.py` file where the folders with static files and media files is located.
+You need to register in the `settings.py` the file where folders with static files and media files are located.
 
 ```python
 # settings.py
