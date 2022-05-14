@@ -134,7 +134,7 @@ In the end you will get the following djangoproject.conf file:
         WSGIScriptAlias / /path/to/django/project/my-project/wsgi.py
 </VirtualHost>
 ```
-Use this config and restart apache2 service.
+Activate this config and restart apache2 service.
 ```
 $ sudo a2ensite testdjango.conf
 $ sudo service apache2 restart
