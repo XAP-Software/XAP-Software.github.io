@@ -24,7 +24,7 @@ $ sudo apt-get install libapache2-mod-wsgi-py3
 
 Virtual env allows our project to work without module conflicts with other python projects. 
 
-To install virtualenv type next command.
+To install virtualenv enter the following command.
 
 ```
  $ sudo pip3 install virtualenv
