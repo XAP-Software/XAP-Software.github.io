@@ -32,7 +32,7 @@ To install virtualenv enter the following command.
 
 Now we can create a virtual environment for our project and activate it.
 
-```
+```terminal
 $ virtualenv env && ./env/bin/activate
 ```
 
