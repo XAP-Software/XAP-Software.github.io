@@ -36,7 +36,7 @@ Now we can create a virtual environment for our project and activate it.
 $ virtualenv env && ./env/bin/activate
 ```
 
-After activate venv you need to install all modules for your project and create your project.
+After activating venv, you need to install all the modules for your project and create a project.
 
 ## Configuration settings.py and static 
 
