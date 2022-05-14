@@ -26,7 +26,7 @@ Virtual env allows our project to work without module conflicts with other pytho
 
 To install virtualenv enter the following command.
 
-```
+```terminal
  $ sudo pip3 install virtualenv
 ```
 
