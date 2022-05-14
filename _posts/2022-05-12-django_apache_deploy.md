@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to deploy Django project to Apache?
+title: How to deploy a Django project using Apache?
 categories: [Python, Django, Apache]
 author_github: nevermore17
 author: Verbin Kirill
