@@ -135,7 +135,7 @@ In the end you will get the following djangoproject.conf file:
 </VirtualHost>
 ```
 Activate this config and restart apache2 service.
-```
+```terminal
 $ sudo a2ensite testdjango.conf
 $ sudo service apache2 restart
 ```
