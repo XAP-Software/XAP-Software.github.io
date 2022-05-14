@@ -6,7 +6,7 @@ author_github: Kostya2702
 author: Konstantin Loshkarev
 ---
 
-If you have a need to use new CAP technologies, and the database contains a lot of data, then you will need to replicate to SAP HANA Cloud. In this article, we will look at the complete setup using PostgreSQL without SSL as an example.
+If you need to use new CAP technologies and your database contains a lot of data then you have to replicate your date to SAP HANA Cloud. In this article we will look at the complete setup using PostgreSQL without SSL as an example.
 
 ## Database preconfiguration
 
@@ -20,30 +20,30 @@ If you have a need to use new CAP technologies, and the database contains a lot 
 
     `max_replication_slots = database_to_replication * 2`
 
-2) Before registering the adapter, you need to install the database driver, information about this can be found at the bottom of the page (SAP HANA smart data integration and all its patches Product Availability Matrix (PAM) for SAP HANA SDI 2.0) by the address: 
+2) Before registering the adapter, you need to install the database driver. Information about it can be found at the bottom of the page (SAP HANA smart data integration and all its patches Product Availability Matrix (PAM) for SAP HANA SDI 2.0) by the address:
 
     https://help.sap.com/viewer/7952ef28a6914997abc01745fef1b607/2.0_SPS06/en-US/f8a15f52581e4f908c296fb92d0bec61.html
 
-3) Download the driver on the official website of the database. Then add the driver to the <DPAgent_root>/lib/ folder in .jar format
+3) Download the driver from the official website of the database and then add this driver to the <DPAgent_root>/lib/ folder using '.jar' format
 
 4) Register adapter. Section 9. Adapter Registration
 
 ## Installing Data Provisionig Agent
 
-1) Downloading SDI Data Provisioning Agent on the site 
+1) Download SDI Data Provisioning Agent from the site
 
     https://tools.hana.ondemand.com/#cloudintegration
 
-2) Unzip the archive and install it in the `/usr/sap/dataprovagent/` directory. Installation is performed from the root folder with the command:
+2) Unzip the archive and install it into `/usr/sap/dataprovagent/` directory. The installation is performed from the root folder with the command:
     ```
         ./hdbinst --silent --batch --path="/usr/sap/dataprovagent" --agent_listener_port=5050 --agent_admin_port=5051
     ```
 
-3) In the `<DPAgent_root>/bin/` folder, run the `dpagent_servicedaemon.sh` file through the code editor and comment out the `pingAgent` function:
+3) In the `<DPAgent_root>/bin/` folder, run the `dpagent_servicedaemon.sh` file via code editor and comment out the `pingAgent` function:
 
     ![Alt text](../article_images/data_provisioning_agent1.png)
 
-    Run the `dpagent_env.sh` file in the same folder and comment out the lines starting with “-e”:
+    Run the `dpagent_env.sh` file which is in the same folder and comment out the lines starting with “-e”:
 
     ![Alt text](../article_images/data_provisioning_agent2.png)
 
@@ -80,7 +80,7 @@ If you have a need to use new CAP technologies, and the database contains a lot 
 
     e) Enter database password;
 
-    f) Enter Use Proxy Server - select false if not using;
+    f) Enter Use Proxy Server. Select `false` if you will not use it;
 
     g) Enter `HANA User Name` for `Agent Messaging` - a user name capable of sending an `Agent Message`, created in the `Database Explorer` in the SQL panel, with the command:
 
@@ -101,11 +101,11 @@ If you have a need to use new CAP technologies, and the database contains a lot 
 
 1) On the `SAP HANA Database Explorer` page, select a database, select Agents in the `Catalog` folder and check that the registered Agent is connected and receives data.
 
-2) In the `Catalog` folder, select z and create using the GUI or using the SQL panel, the code can be found on the page:
+2) In the `Catalog` folder, select z and create remote source using the GUI or using the SQL panel. The code can be found on the page:
 
     https://help.sap.com/viewer/7952ef28a6914997abc01745fef1b607/2.0_SPS05/en-US/6ed502701abd4d1ca94d463d7dc6e99f.html 
 
-    in the section for a certain database there is a configuration code. Paste code in SQL Panel to `SAP HANA Database Explorer`.
+    there is a configuration code in the section for a certain database. Paste code in SQL Panel to `SAP HANA Database Explorer`.
 
 Fill in the required fields Host, Port Number, Database Name. 
 ![Alt text](../article_images/remote_source1.png)
