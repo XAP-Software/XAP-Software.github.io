@@ -21,7 +21,6 @@ $ sudo apt-get install libapache2-mod-wsgi-py3
 # Django configuration
 
 
-
 ## Install virtual env
 
 Virtual env allows our project to work without modules conflict of other python projects. 
