@@ -40,7 +40,7 @@ After activating venv, you need to install all the modules for your project and 
 
 ## Configuration settings.py and static 
 
-Django requires collect static files.
+Django requires to collect static files.
 
 ```terminl
 $ python3 manage.py collectstatic 
