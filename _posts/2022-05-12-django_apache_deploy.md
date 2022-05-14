@@ -106,7 +106,7 @@ Create a `djangoproject.conf` file in the `/etc/apache2/sites-available/` direct
 ```
 
 In the end you will get the following djangoproject.conf file:
-```xml
+```apache
 <VirtualHost *:80>
         ServerAdmin localhost@webmaster
         ServerName server-name
