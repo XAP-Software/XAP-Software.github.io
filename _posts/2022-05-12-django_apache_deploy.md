@@ -65,7 +65,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR,"media")
 
 ## Apache configuration
 
-Create a `djangoproject.conf` file in the `/etc/apache2/sites-available/` directory and set the following settings:
+Create a `djangoproject.conf` file in the `/etc/apache2/sites-available/` directory and provide the following settings:
  - standart host settings
 
 ```xml
