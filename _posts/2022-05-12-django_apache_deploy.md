@@ -89,7 +89,7 @@ Create a `djangoproject.conf` file in the `/etc/apache2/sites-available/` direct
         </Directory>
 ```
 - wsgi file settings
-```xml
+```apache
         <Directory /path/to/django/project/my-project>
             <Files wsgi.py>
                 Require all granted
