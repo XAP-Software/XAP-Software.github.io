@@ -139,8 +139,3 @@ Activate this config and restart apache2 service.
 $ sudo a2ensite testdjango.conf
 $ sudo service apache2 restart
 ```
-
-
-
-
-
