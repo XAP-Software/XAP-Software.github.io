@@ -6,7 +6,7 @@ author_github: nevermore17
 author: Verbin Kirill
 ---
 
-You need to do some configuration of Apache and Django before deploying a django project to Apache.
+You need to do some configuration of Apache and Django before deploying a django project using Apache.
 
 # Install mod-wsgi library
 
