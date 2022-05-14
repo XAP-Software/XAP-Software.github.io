@@ -42,7 +42,7 @@ After activating venv, you need to install all the modules for your project and 
 
 Django requires to collect static files.
 
-```terminl
+```terminal
 $ python3 manage.py collectstatic 
 ```
 
