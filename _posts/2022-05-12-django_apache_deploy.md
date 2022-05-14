@@ -12,7 +12,7 @@ You need to do some configuration of Apache and Django before deploying a django
 
 The first step is to install `libapache2-mod-wsgi-py3` library to let Apache and Django communicate. `libapache2-mod-wsgi-py3` is an adapter for running python applications on the Apache web server.
 
-```terminl
+```terminal
 
 $ sudo apt-get install libapache2-mod-wsgi-py3
 
