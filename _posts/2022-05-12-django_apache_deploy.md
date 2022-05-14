@@ -99,7 +99,7 @@ Create a `djangoproject.conf` file in the `/etc/apache2/sites-available/` direct
         </Directory>
 ```
 - venv settings
-```xml
+```apache
         WSGIDaemonProcess django_project python-path=/path/to/django/project python-home=/path/to/env/folder/env
         WSGIProcessGroup django_project
         WSGIScriptAlias / /path/to/django/project/my-project/wsgi.py
