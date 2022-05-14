@@ -30,7 +30,7 @@ To install virtualenv enter the following command.
  $ sudo pip3 install virtualenv
 ```
 
-Now we can create venv for our project and activate.
+Now we can create a virtual environment for our project and activate it.
 
 ```
 $ virtualenv env && ./env/bin/activate
