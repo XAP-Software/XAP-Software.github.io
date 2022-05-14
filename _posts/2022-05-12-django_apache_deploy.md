@@ -77,7 +77,7 @@ Create a `djangoproject.conf` file in the `/etc/apache2/sites-available/` direct
 ```
  - media and static folder settings
 
-```xml
+```apache
         Alias /static /path/to/django/project/static
         <Directory /path/to/django/project/static>
             Require all granted
