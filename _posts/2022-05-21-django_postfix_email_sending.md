@@ -2,8 +2,8 @@
 layout: post
 title: How to send emails using Django and Postfix?
 categories: [Python, Django]
-author_github: nevermore17
-author: Verbin Kirill
+author_github: negativename
+author: Kobenko Vladislav
 ---
 
 In case you need to add capabality for sending email notifications from your `Django` app and use `Postfix` mail transfer agent, this article will help you.
