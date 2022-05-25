@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to set up replication from PostgreSQL to SAP HANA Cloud? 
-categories: [SAP BTP, SAP HANA Cloud, PostgreSQL]
+title: How to implement Axios interceptors? 
+categories: [JavaScript, Axios]
 author_github: Kostya2702
 author: Konstantin Loshkarev
 ---
 
-As the application scales up, so does the need to handle a large number of errors. if you use axios to get data from api, then overflowing .catch is wrong, axios.interceptors are used for that.
+As the application scales up, the need for error handling increases. If you use axios to get data from api, then overflowing .catch is wrong, axios.interceptors should be used to handle errors.
 
-## Import required elements
+## Import required exports
 
 In `main.js`
 
@@ -17,7 +17,7 @@ import App from './App';
 import axios from "axios";
 ```
 
-## Implementing axios interceptors
+## Implement axios interceptors
 
 in `main.js`
 
@@ -53,5 +53,5 @@ axios.interceptors.response.use(
 });
 ```
 
-Response is returned if api call ends with code 200 or 201.
+A response is returned only if API call ends with OK codes 200 or 201.
 Otherwise, we handle each error as we need.
