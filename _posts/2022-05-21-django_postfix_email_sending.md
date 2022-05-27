@@ -6,11 +6,11 @@ author_github: negativename
 author: Kobenko Vladislav
 ---
 
-In case you need to add capabality for sending email notifications from your `Django` app and use `Postfix` mail transfer agent, this article will help you.
+In case you need to add a possibility of sending email notifications from your `Django` app and use `Postfix` mail transfer agent then this article will help you out.
 
 # Configure settings.py file
 
-First you need to add following lines in `settings.py` file. In `EMAIL_HOST` variable you should insert host address and in `EMAIL_PORT` insert port. By default port of your local `Postfix` service is `25`.
+Firstly, you need to add following lines in `settings.py` file. You should insert host address in `EMAIL_HOST` variable and insert port in `EMAIL_PORT`. Notice, that the port of your local `Postfix` service is `25` by default.
 
 ```python
 
@@ -32,7 +32,7 @@ Now you need to open your `views.py` file and import `send_mail` function.
 from django.core.mail import send_mail
 ```
 
-For example, if you have a call-back form on front-end and sending user's data to your `Django API` on back-end, you should rewrite the default `create()` method of view class. To show messages in `Django` admin panel you need to create an object of your `Form` class and save it using default function `save()`.
+For example, if you have a call-back form on the front-end and you send user's data to your `Django API` on the back-end, you should rewrite the default `create()` method of `View class`. In order to show messages in `Django` admin panel you need to create an object of your `Form` class and save it using default function `save()`.
 
 ```python
 class TestFormViewSet(viewsets.ModelViewSet):
@@ -59,6 +59,6 @@ class TestFormViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 ```
 
-Now you see, that in the `create()` function you getting data from front-end and creating message using this data. Also in field `from_addr` you write the address from which the `Postfix` send an email. Field `recipient_list` using for specifying recipients of your email. And in the end you are sending messages using function `send_mail()` with these params.
+Now you can see that using `create()` function you receive data from the front-end and create a message using this data. Also, you can fill in `from_addr` field with address which will be used by `Postfix` to send email. The field `recipient_list` is used for specifying recipients of your email. As a result, you send messages using function `send_mail()` in accordance with these params.
 
-Note: You need to set up `Postfix` configuration before using the above method.
+Note that you need to set up `Postfix` configuration before using the method above.
