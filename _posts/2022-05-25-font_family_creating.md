@@ -6,11 +6,11 @@ author_github: negativename
 author: Vladislav Kobenko
 ---
 
-If you need to create `font-family` using custom fonts from the Internet, in this article described two different ways, which can help you.
+If you need to create a `font-family` using custom fonts from the Internet, this article describes two different ways which can help you.
 
 ## Downloading fonts from the Internet
 
-In the first method you need to download custom fonts from the Internet. Then create a new `.css` file, for example `fonts.woff.css`:
+Using first method, you need to download custom fonts from the Internet. Then create a new `.css` file, for example `fonts.woff.css`:
 
 ```css
 @font-face {
@@ -40,7 +40,7 @@ body {
 
 ## Using link on the font
 
-Some fonts you are described by the link in the Internet. In this method we show you how to use `link` and create `font-family`.
+Some fonts are described by a link to the Internet. In this method, we show you how to use `link` and create `font-family`.
 
 ```css
 @font-face {
@@ -63,4 +63,4 @@ Some fonts you are described by the link in the Internet. In this method we show
 }
 ```
 
-Now we united three different types of fonts to the one `font-family`. In the last step you need to add this `font-family` into your main `.css` file.
+Thus, we united three different types of fonts and put them into one `font-family`. The last step is adding this `font-family` into your main `.css` file.
