@@ -9,9 +9,9 @@ author: Verbin Kirill
 Use `next-sitemap` npm module for generation a sitemap to your NextJS project.
 This allows generate the sitemap for your project with server-side props based pages.
 
-### Insall module
+### Install module
 
-```terminal
+```bash
 npm install next-sitemap --dev
 ```
 
