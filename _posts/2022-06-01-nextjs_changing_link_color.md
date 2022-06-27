@@ -54,6 +54,6 @@ return (
 );
 ```
 
-Using the property `onMouseEnter` we call a hover handler. This handler changes `isHover` state and the link gets a new color. `onMouseLeave` we call a hover handler one more time. That's why link changes color back. As you saw using inline styles we can change the link color.
+Using the property `onMouseEnter` we call for a hover handler. This handler changes `isHover` state and the link gets a new color. We call a hover handler one more time in `onMouseLeave`. That's why link changes color back. As you saw how to use inline styles, you can change the link color yourself.
 
 That would be nice if you could make your code a little bit more expressive.
