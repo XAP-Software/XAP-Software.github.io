@@ -10,7 +10,7 @@ If you want to change link color by hover using `Next.js` or `React.js`, this ar
 
 ## Creating a hover handler
 
-First of all you need to import `useState` hook from `React.js` library. Then create a state for status of hover. You need to set the default state as not hovered.
+First of all you need to import `useState` hook from `React.js` library. Then create a state for status of hover. You need to set the default state as 'not hovered'.
 
 ```jsx
 import { useState } from "react";
