@@ -6,7 +6,7 @@ author_github: negativename
 author: Vladislav Kobenko
 ---
 
-If you want to change link color by hover using `Next.js` or `React.js`, this article will help you a lot.
+If you want to change link's color by hover using `Next.js` or `React.js`, this article will help you a lot.
 
 ## Creating a hover handler
 
