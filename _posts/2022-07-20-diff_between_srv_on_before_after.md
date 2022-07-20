@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is the differenct between srv .on() .before() and .after() handlers in CAP CDS?
+title: What is the difference between srv .on() .before() and .after() handlers in CAP CDS?
 categories: [CAP CDS]
 author_github: negativename
 author: Vladislav Kobenko
