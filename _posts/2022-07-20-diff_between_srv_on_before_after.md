@@ -26,7 +26,7 @@ There are another four things that you need to know about `.before()` handler:
 
 ## srv.on() handler
 
-These handlers are run in the chain and every handler being able to terminate it. `.on()` handler helps you to create custom handlers to execute it instead of generic.
+These handlers are run in a chain and every handler can terminate it. `.on()` handler helps you to create custom handlers replacing standard ones.
 
 There are some cases how to handle the requests:
 
