@@ -46,7 +46,7 @@ srv.on('READ','Records', (req,next)=>{
 
 The `.after()` handler is used to modify the response. It runs on the results, which are returned by the standard or custom `.on()` handler.
 
-There are few things that you should know about this handler:
+There are a few things you should know about this handler:
 
 1. Otherwise than the `.on()` handler, the `.after()` handler has two parameters - `(result, req)`.
 2. You should use `req` parameter, if you need to reflect on the inbound request
