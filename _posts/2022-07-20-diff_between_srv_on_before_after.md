@@ -28,7 +28,7 @@ There are another four things that you need to know about `.before()` handler:
 
 These handlers are run in a chain and every handler can terminate it. `.on()` handler helps you to create custom handlers replacing standard ones.
 
-There are some cases how to handle the requests:
+Please find below some examples for handling requests:
 
 ```js
 srv.on('READ','Records', async (req)=> req.reply(await cds.tx(req).run(...))
