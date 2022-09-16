@@ -49,7 +49,7 @@ The `.after()` handler is used to modify the response. It runs on the results, w
 There are a few things you should know about this handler:
 
 1. Otherwise than the `.on()` handler, the `.after()` handler has two parameters - `(result, req)`.
-2. You should use `req` parameter, if you need to reflect on the inbound request
+2. You should use `req` parameter, if you need to reflect on an inbound request
 3. This method uses only for modificate the result. You can't replace the result, like this: 
 ```js
   this.after('READ','Records', (records)=>{
