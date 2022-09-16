@@ -21,7 +21,7 @@ There are another four things that you need to know about `.before()` handler:
 
 1. If you have more than one `.before()` handler, then they will be executed in order of their registration. 
 2. If your handler executes asynchronous task, you need to return a promise.
-3. Executing of the `.on()` handlers starts, when all promises will be resolved.
+3. Execution of the `.on()` handlers starts, when all promises will be resolved.
 4. If your `.before()` handlers are running in asynchronous way, you can't react on side-effects.
 
 ## srv.on() handler
