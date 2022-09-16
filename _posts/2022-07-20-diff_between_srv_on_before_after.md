@@ -50,7 +50,7 @@ There are a few things you should know about this handler:
 
 1. Otherwise than the `.on()` handler, the `.after()` handler has two parameters - `(result, req)`.
 2. You should use `req` parameter, if you need to reflect on an inbound request
-3. This method uses only for modificate the result. You can't replace the result, like this: 
+3. This method is used only to modify the result. You can't replace the result, e.g. you can't do the following: 
 ```js
   this.after('READ','Records', (records)=>{
   return ...something...
